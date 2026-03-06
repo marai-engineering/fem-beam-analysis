@@ -33,3 +33,18 @@ The project includes a MATLAB implementation of the FEM formulation and validati
 - ANSYS simulation results
 - Plots of structural response
 - Project documentation
+
+## MATLAB Code
+
+The finite element formulation was implemented in MATLAB using Euler-Bernoulli beam elements.
+
+The code includes:
+- global stiffness and mass matrix assembly
+- static solution for nodal displacements
+- reaction force calculation
+- deflection, rotation, and bending moment plotting
+- midpoint deflection evaluation
+- natural frequency extraction by solving the generalized eigenvalue problem
+
+Main script:
+- `code/fem_beam_analysis.m`
